@@ -1,0 +1,152 @@
+/* line 1, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+header {
+  height: 300px;
+  background-image: url("http://static.pexels.com/wp-content/uploads/2014/09/lake-landscape-mountains-2855.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 11, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  header .overlay {
+    height: 300px;
+    background: rgba(41, 128, 185, 0.5) no-repeat center center fixed; }
+  /* line 16, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 116px;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+  /* line 26, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  header h2 {
+    font-size: .7em;
+    margin-top: 0px;
+    color: #34495e; }
+  /* line 32, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  header p {
+    font-size: .9em;
+    color: #34495e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding-top: 10px; }
+  /* line 41, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  header ul {
+    padding-top: 10px;
+    color: #34495e; }
+    /* line 44, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+    header ul li {
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      font-size: .9em;
+      font-weight: 400;
+      margin: 0px; }
+
+/* line 55, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-left h1 {
+  color: #2c3e50;
+  padding-top: 30px;
+  font-family: Oswald;
+  text-transform: uppercase; }
+/* line 61, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-left h2 {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 0px;
+  display: inline; }
+/* line 69, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-left h3 {
+  margin-left: 10px;
+  font-size: 10px;
+  display: inline;
+  padding-top: 10px; }
+/* line 75, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-left p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 10px; }
+
+/* line 84, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right .right {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+/* line 88, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right .imgoverlay {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto; }
+/* line 93, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right .overlay {
+  height: 100px;
+  background: rgba(41, 128, 185, 0.5) no-repeat center center fixed; }
+/* line 97, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right h1 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 12px; }
+/* line 102, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right p {
+  font-family: Open Sans;
+  font-size: 10px;
+  padding-bottom: 50px; }
+/* line 107, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+content-right ul {
+  padding-bottom: 25px; }
+  /* line 109, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  content-right ul li {
+    padding: 5px;
+    font-size: 10.5px;
+    font-weight: 300; }
+
+/* line 117, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+footer {
+  border-top: 1px solid #ECF0F1; }
+  /* line 119, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  footer h1 {
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 2.5em;
+    padding-bottom: 10px; }
+  /* line 125, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  footer .cage {
+    float: left;
+    width: 100%;
+    height: 350px;
+    margin-left: 0px; }
+    /* line 131, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+    footer .cage .overlay {
+      background: rgba(255, 255, 255, 0.6) no-repeat center center fixed;
+      width: 100%;
+      height: 100%; }
+    /* line 137, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+    footer .cage:hover .overlay {
+      background: none; }
+  /* line 143, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+  footer .bottom {
+    background: #2c3e50;
+    height: 60px;
+    color: #95a5a6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7em;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 12px; }
+
+/* line 154, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0; }
+
+/* line 159, /Users/dannysun/Documents/ironyard/lab3/surfco/source/stylesheets/styles.scss */
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0; }
